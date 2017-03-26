@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/particular_date"
+    android:layout_margin="10dip"
+
+    android:stretchColumns="1"
+    tools:context="com.example.codeit.team_24.Particulardate_Data">
+
+    <TableRow>
+        <TextView
+            android:layout_column="1"
+            android:text="Date"
+            android:padding="3dp" />
+        <TextView
+            android:id="@+id/detail_pdate"
+            android:gravity="right"
+            android:padding="3dip" />
+    </TableRow>
+
+    <TableRow>
+        <TextView
+            android:layout_column="1"
+            android:text="Name"
+            android:padding="3dip" />
+        <TextView
+            android:id="@+id/detail_pname"
+            android:gravity="right"
+            android:padding="3dip" />
+    </TableRow>
+
+    <TableRow>
+        <TextView
+            android:layout_column="1"
+            android:text="Ticker"
+            android:padding="3dip" />
+        <TextView
+            android:id="@+id/detail_pcode"
+            android:gravity="right"
+            android:padding="3dip" />
+    </TableRow>
+
+    <TableRow>
+        <TextView
+            android:layout_column="1"
+            android:text="Open"
+            android:padding="3dip" />
+        <TextView
+            android:id="@+id/detail_popen"
+            android:gravity="right"
+            android:padding="3dip" />
+    </TableRow>
+
+    <TableRow>
+        <TextView
+            android:layout_column="1"
+            android:text="Close"
+            android:padding="3dip" />
+        <TextView
+            android:id="@+id/detail_pclose"
+            android:gravity="right"
+            android:padding="3dip" />
+    </TableRow>
+    <TableRow>
+        <TextView
+            android:layout_column="1"
+            android:text="High"
+            android:padding="3dip" />
+        <TextView
+            android:id="@+id/detail_phigh"
+            android:gravity="right"
+            android:padding="3dip" />
+    </TableRow>
+    <TableRow>
+        <TextView
+            android:layout_column="1"
+            android:text="Low"
+            android:padding="3dip" />
+        <TextView
+            android:id="@+id/detail_plow"
+            android:gravity="right"
+            android:padding="3dip" />
+    </TableRow>
+    <TableRow>
+        <TextView
+            android:layout_column="1"
+            android:text="Volume"
+            android:padding="3dip" />
+        <TextView
+            android:id="@+id/detail_pvol"
+            android:gravity="right"
+            android:padding="3dip" />
+    </TableRow>
+    <TableRow>
+        <TextView
+            android:layout_column="1"
+            android:text="Ex-Dividend"
+            android:padding="3dip" />
+        <TextView
+            android:id="@+id/detail_pdiv"
+            android:gravity="right"
+            android:padding="3dip" />
+    </TableRow>
+    <TableRow>
+        <TextView
+            android:layout_column="1"
+            android:text="Split Ratio"
+            android:padding="3dip" />
+        <TextView
+            android:id="@+id/detail_psplit"
+            android:gravity="right"
+            android:padding="3dip" />
+    </TableRow>
+
+</TableLayout>

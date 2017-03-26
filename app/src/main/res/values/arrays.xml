@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+<string-array name="refresh_rate">
+    <item name="real">Real Time</item>
+    <item name="ten">10 secs</item>
+    <item name="thirty">30 secs</item>
+    <item name="min">1 min</item>
+    </string-array>
+
+    <string-array name="refresh_values">
+        <item name="real">Real Time</item>
+        <item name="ten">10 secs</item>
+        <item name="thirty">30 secs</item>
+        <item name="min">1 min</item>
+    </string-array>
+
+    <string-array name="notif">
+        <item name="on">On</item>
+        <item name="off">Off</item>
+    </string-array>
+    <string-array name="notif_val">
+        <item name="on">On</item>
+        <item name="off">Off</item>
+    </string-array>
+
+</resources>

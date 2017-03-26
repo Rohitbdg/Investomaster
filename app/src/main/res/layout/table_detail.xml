@@ -1,0 +1,216 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.design.widget.CoordinatorLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fitsSystemWindows="true"
+    tools:context="com.example.codeit.team_24.DetailActivity">
+
+
+<TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:stretchColumns="1"
+    android:layout_margin="10dip"
+    tools:context="com.example.codeit.team_24.DetailActivity"
+    app:layout_scrollFlags="scroll">
+    <android.support.v7.widget.Toolbar
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="top"
+        android:background="?attr/colorPrimary"
+        android:theme="?attr/actionBarTheme"
+        android:minHeight="?attr/actionBarSize"
+        android:id="@+id/toolbar2"
+        app:navigationIcon="?homeAsUpIndicator"
+        android:title="Detail">
+
+        <ImageButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="top|right"
+            app:srcCompat="@android:drawable/star_big_off"
+            android:id="@+id/imageButton" />
+    </android.support.v7.widget.Toolbar>
+
+
+
+    <com.jjoe64.graphview.GraphView
+        android:layout_width="match_parent"
+        android:layout_height="200dip"
+        android:id="@+id/graph" />
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="2dip"
+        android:background="#FF909090" />
+
+    <TableRow>
+        <TextView
+            android:layout_column="1"
+            android:text="Name"
+            android:padding="3dp" />
+        <TextView
+            android:id="@+id/detail_name"
+            android:gravity="right"
+            android:padding="3dip" />
+    </TableRow>
+
+    <TableRow>
+        <TextView
+            android:layout_column="1"
+            android:text="Ask"
+            android:padding="3dip" />
+        <TextView
+            android:id="@+id/detail_ask"
+            android:gravity="right"
+            android:padding="3dip" />
+    </TableRow>
+
+    <TableRow>
+        <TextView
+            android:layout_column="1"
+            android:text="Change"
+            android:padding="3dip" />
+        <TextView
+            android:id="@+id/detail_change"
+            android:gravity="right"
+            android:padding="3dip" />
+    </TableRow>
+
+    <TableRow>
+        <TextView
+            android:layout_column="1"
+            android:text="Percentage Change"
+            android:padding="3dip" />
+        <TextView
+            android:id="@+id/detail_perchange"
+            android:gravity="right"
+            android:padding="3dip" />
+    </TableRow>
+
+    <TableRow>
+        <TextView
+            android:layout_column="1"
+            android:text="Symbol"
+            android:padding="3dip" />
+        <TextView
+            android:id="@+id/detail_symbol"
+            android:gravity="right"
+            android:padding="3dip" />
+    </TableRow>
+    <TableRow>
+        <TextView
+            android:layout_column="1"
+            android:text="Today's Range"
+            android:padding="3dip" />
+        <TextView
+            android:id="@+id/detail_dayr"
+            android:gravity="right"
+            android:padding="3dip" />
+    </TableRow>
+    <TableRow>
+        <TextView
+            android:layout_column="1"
+            android:text="Previous Close"
+            android:padding="3dip" />
+        <TextView
+            android:id="@+id/detail_close"
+            android:gravity="right"
+            android:padding="3dip" />
+    </TableRow>
+    <TableRow>
+        <TextView
+            android:layout_column="1"
+            android:text="Open"
+            android:padding="3dip" />
+
+        <TextView
+            android:id="@+id/detail_open"
+            android:gravity="right"
+            android:padding="3dip" />
+    </TableRow>
+    <TableRow>
+        <TextView
+            android:layout_column="1"
+            android:text="Volume"
+            android:padding="3dip" />
+        <TextView
+            android:id="@+id/detail_vol"
+            android:gravity="right"
+            android:padding="3dip" />
+    </TableRow>
+    <TableRow>
+        <TextView
+            android:layout_column="1"
+            android:text="Day's High"
+            android:padding="3dip" />
+        <TextView
+            android:id="@+id/detail_high"
+            android:gravity="right"
+            android:padding="3dip" />
+    </TableRow>
+    <TableRow>
+        <TextView
+            android:layout_column="1"
+            android:text="Day's Low"
+            android:padding="3dip" />
+
+        <TextView
+            android:id="@+id/detail_low"
+            android:gravity="right"
+            android:padding="3dip" />
+    </TableRow>
+    <TableRow>
+        <TextView
+            android:layout_column="1"
+            android:text="PE Ratio"
+            android:padding="3dip" />
+        <TextView
+            android:id="@+id/detail_per"
+            android:gravity="right"
+            android:padding="3dip" />
+    </TableRow>
+    <TableRow>
+        <TextView
+            android:layout_column="1"
+            android:text="Dividend Yield"
+            android:padding="3dip" />
+        <TextView
+            android:id="@+id/detail_div"
+            android:gravity="right"
+            android:padding="3dip" />
+    </TableRow>
+    <TableRow>
+        <TextView
+            android:layout_column="1"
+            android:text="Currency"
+            android:padding="3dip" />
+        <TextView
+            android:id="@+id/detail_curr"
+            android:gravity="right"
+            android:padding="3dip" />
+
+    </TableRow>
+    <TableRow>
+        <TextView
+            android:layout_column="1"
+            android:text="Year's Range"
+            android:padding="3dip" />
+        <TextView
+            android:id="@+id/detail_yrr"
+            android:gravity="right"
+            android:padding="3dip" />
+
+    </TableRow>
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="2dip"
+        android:background="#FF909090" />
+
+
+</TableLayout>
+</android.support.design.widget.CoordinatorLayout>
